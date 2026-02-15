@@ -6,7 +6,7 @@ I work where **machine learning** meets **business strategy**. I don’t stop at
 
 ---
 
-## What I do (and how I think)
+## What I do 
 
 - **Business-first analytics:** start with the question, define success metrics, and align stakeholders early  
 - **Data to insight:** clean, validate, and build pipelines that people can trust  
@@ -16,7 +16,7 @@ I work where **machine learning** meets **business strategy**. I don’t stop at
 
 ---
 
-## Highlights I’m proud of
+## Highlights 
 
 - Drove **go-to-market decisions** using SQL + Python + Power BI across **50+ universities**, combining segmentation, funnel modeling, and experimentation to boost **weekly engagement by 29%**  
 - Built ML workflows for **steganography analysis** using SVMs and supervised learning, achieving **95% detection accuracy** and surfacing key system vulnerabilities  
@@ -36,7 +36,7 @@ I work where **machine learning** meets **business strategy**. I don’t stop at
 
 ---
 
-## What I’m focusing on right now
+## Focus
 
 - Product analytics and experimentation done right (funnel integrity, guardrails, interpretation)  
 - Forecasting and risk modeling that holds up in real operations  
@@ -46,7 +46,8 @@ I work where **machine learning** meets **business strategy**. I don’t stop at
 
 ## Let’s connect
 
-- Email: **agUPta17@umd.edu**
-- LinkedIn: **Linkedin/Arin**
+- Email: **agupta17@umd.edu**
+- [LinkedIn](https://www.linkedin.com/in/your-linkedin-handle/)
+
 
 If you’re building something where ML needs to translate into business outcomes, I’d love to collaborate.
