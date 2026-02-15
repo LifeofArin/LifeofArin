@@ -47,7 +47,7 @@ I work where **machine learning** meets **business strategy**. I don’t stop at
 ## Let’s connect
 
 - Email: **agupta17@umd.edu**
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-handle/)
+- [LinkedIn](https://www.linkedin.com/in/arin-rajiv-gupta/)
 
 
 If you’re building something where ML needs to translate into business outcomes, I’d love to collaborate.
