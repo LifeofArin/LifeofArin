@@ -37,15 +37,7 @@ MS Data Science @ University of Maryland (4.0) · Open to roles owning **problem
 |------|------------|
 | [**Real-Time-Bitcoin-Price-Prediction**](https://github.com/LifeofArin/Real-Time-Bitcoin-Price-Prediction) | Time series + live-style ingestion pipeline |
 | [**english-hindi-nmt-source-reordering**](https://github.com/LifeofArin/english-hindi-nmt-source-reordering) | LSTM / attention / Transformer comparison + SVO→SOV reordering |
-| **Resume chat (fast session recovery)** | See [**Collaboration note**](#collaboration-note) below—pin **your fork** under `LifeofArin`, not only upstream, so your commits are visible |
-
----
-
-## Collaboration note
-
-The **resume chat / fast session recovery** work ships primarily in collaboration with the original author. **If the canonical repo lives under another GitHub user,** recruiters should see **your fork** (`LifeofArin/...`) pinned so commit history and PRs reflect your contribution. If you do not have a fork yet: fork upstream, push your work, open PRs, then pin **your** fork.
-
----
+| [**Resume chat — fast session recovery**](https://github.com/abhyansh26/resume-chat-fast-recovery) | Cloud-native resume editor with AI-assisted bullets and crash-proof session recovery (React, FastAPI, DynamoDB, S3, AWS Lambda + CloudFront) |
 
 ## Technical stack
 
