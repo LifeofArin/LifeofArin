@@ -1,66 +1,105 @@
-# Arin Rajiv Gupta
+<!-- Copy this file to: github.com/LifeofArin/LifeofArin → README.md (profile special repo) -->
 
-**Data Scientist | ML and AI Systems | Product Analytics**
+<div align="center">
 
-I build machine learning and AI systems that change how teams make decisions. My work sits at the intersection of data science, product thinking and applied AI, and I care most about the part where a model or a pipeline actually shifts behavior inside an organization.
+### Arin Rajiv Gupta
 
-Over the past four years I have worked across defense research, energy operations, edtech product analytics and university AI infrastructure. The thread that connects all of it is the same: take a complex, high-stakes problem, build something rigorous around it and make sure the people who need the answers can trust and use them.
+**Data Science · Applied ML & GenAI · Product analytics**
 
-I am finishing my MS in Data Science at the University of Maryland (4.0 GPA) and actively looking for roles where I can own the full arc from problem framing through deployment and measurement.
+MS Data Science @ University of Maryland (4.0) · Open to roles owning **problem framing → modeling → deployment → measurement**
 
-## My Approach
+[Email](mailto:agupta17@umd.edu) · [LinkedIn](https://www.linkedin.com/in/arin-rajiv-gupta/)
 
-I start with the decision, not the data. Before I write a query or train a model, I want to know what will change if we get the answer right and what it costs if we get it wrong. That framing shapes everything downstream: what data to collect, which methods actually fit, how to evaluate, and how to present findings so they land with the right people.
+</div>
 
-The technical work matters most when it connects directly to how people operate. So I spend real time with stakeholders, understand their workflows, and design outputs like dashboards, alerts, reports and routing logic that plug into the way teams already work.
+---
 
-## What I Have Built
+**In one line:** I build ML and AI systems (NLP, routing, forecasting, anomaly detection) where the outcome is a **decision or workflow change**, not only a model artifact.
 
-### LLM-Assisted Triage and Case Routing (University of Maryland)
-At UMD I built an automated triage system that connects counseling, testing and administrative teams through LLM-powered routing. The system classifies incoming cases, assigns priority and routes them to the right team without manual sorting. It cut manual processing by 78% and reduced unresolved escalations by 35% across the systems involved. The project sharpened how I design AI for real institutional workflows, where reliability and adoption are what determine impact.
+**Selected impact (high level; happy to unpack methodology in conversation):**
 
-### Product Analytics and Go-to-Market Strategy (Smith School of Business, UMD)
-As an ML consultant for an edtech startup, I mapped user engagement across 50+ U.S. universities and built the analytical foundation for their acquisition strategy. I ran cohort segmentation with K-Means clustering, modeled conversion funnels with logistic regression, and designed A/B tests across paid and organic channels. Weekly engagement went up 29% and campaign ROI improved by 22%. I also automated the data pipelines feeding leadership dashboards, compressing reporting lag from weekly to daily and cutting time-to-decision on ad spend by 60%.
+| Area | Outcome |
+|------|--------|
+| LLM triage & routing (UMD) | **~78%** less manual processing; **~35%** fewer unresolved escalations vs prior process |
+| Edtech GTM / analytics (UMD) | **~29%** weekly engagement lift; **~22%** campaign ROI; reporting **weekly → daily** |
+| Healthcare claims (Azure) | **~92%** precision on narrative flagging; **~40%** faster claim review |
+| Defense anomaly detection | **~95%** detection accuracy on benchmark-style holdout; briefings **~2 weeks → ~4 days** |
+| Energy / ops (Indian Oil) | **~1M+** points/day pipelines; **~40%** inventory accuracy improvement on forecasting initiative |
+| EN→HI NMT research | Transformer **BLEU 16.48** / **TER 74.01** on 310K pairs; dependency reordering on **~43%** of test sentences |
 
-### Healthcare Claims Anomaly Detection
-I trained an Isolation Forest and an NLP-based claim narrative classifier on Azure Databricks to detect billing anomalies across 250K+ medical claims. The system hit 92% precision on unstructured clinical notes. I then deployed LangChain workflows with RAG and vector databases to convert flagged anomalies into plain-language audit summaries, containerized on Azure Kubernetes Service. Claim review time dropped by 40% and auditor escalations fell by 28%.
+*Percentages are vs stated baselines (prior manual process, prior campaigns, or model baselines) for comparable periods or splits—ask me for definitions and caveats.*
 
-### Anomaly Detection for Defense Systems (DRDO, India)
-At India's defense research organization I built SVM-based anomaly detection models for steganography analysis in military communication systems. The models surfaced three concrete vulnerabilities including payload pattern leakage, weak hash key reuse and compression-based side-channel exposure. Detection accuracy reached 95% across hidden cipher and steganographic payload identification on a 100K+ record dataset. I translated the statistical findings into a concise briefing for senior defense researchers, reducing their review cycle from two weeks to four days.
+---
 
-### Real-Time Operations Analytics (Indian Oil Corporation)
-I processed over 1M daily data points through optimized SQL pipelines and built a real-time Power BI dashboard used by 500+ analysts across 200+ fuel stations. I deployed row-level security to maintain full data privacy compliance while giving each station manager filtered views of only their own operational data. I also developed ARIMA-based demand forecasting models that improved inventory accuracy by 40% and gave procurement teams a two-week forward visibility window.
+## Pinned repositories (start here)
 
-### Neural Machine Translation Research (English to Hindi)
-I compared LSTM, Bahdanau attention and Transformer architectures on 310K sentence pairs, with the Transformer reaching BLEU 16.48 and TER 74.01, outperforming all baselines. I built a dependency-based reordering heuristic that modified inputs for 43% of test sentences and ran structured error analysis that directly shaped the final co-authored research report.
+| Repo | What it is |
+|------|------------|
+| [**Real-Time-Bitcoin-Price-Prediction**](https://github.com/LifeofArin/Real-Time-Bitcoin-Price-Prediction) | Time series + live-style ingestion pipeline |
+| [**english-hindi-nmt-source-reordering**](https://github.com/LifeofArin/english-hindi-nmt-source-reordering) | LSTM / attention / Transformer comparison + SVO→SOV reordering |
+| **Resume chat (fast session recovery)** | See [**Collaboration note**](#collaboration-note) below—pin **your fork** under `LifeofArin`, not only upstream, so your commits are visible |
 
-## Technical Stack
+---
 
-**Core:** Python (Pandas, NumPy, scikit-learn), SQL, R
+## Collaboration note
 
-**ML and Deep Learning:** TensorFlow, PyTorch, Transformers, CNNs, RNNs, Sequence Modeling
+The **resume chat / fast session recovery** work ships primarily in collaboration with the original author. **If the canonical repo lives under another GitHub user,** recruiters should see **your fork** (`LifeofArin/...`) pinned so commit history and PRs reflect your contribution. If you do not have a fork yet: fork upstream, push your work, open PRs, then pin **your** fork.
 
-**NLP and Generative AI:** LangChain, RAG, Vector Databases, Prompt Engineering, OpenAI and Claude APIs, Automated Workflow Design
+---
 
-**Data Infrastructure:** Apache Spark, Databricks, PostgreSQL, MLflow, Docker, AWS, Azure
+## Technical stack
 
-**Analytics and BI:** Power BI, Tableau, A/B Testing, Funnel Modeling, Cohort Analysis
+**Core:** Python (Pandas, NumPy, scikit-learn), SQL, R  
 
-**Dev Tools:** Git, CI/CD Pipelines, Azure Kubernetes Service
+**ML / DL:** TensorFlow, PyTorch, Transformers, CNNs, RNNs, sequence modeling  
 
-## Selected Repositories
+**NLP & GenAI:** LangChain, RAG, vector DBs, prompt design, OpenAI & Claude APIs  
 
-**Resume Chat with Fast Session Recovery** | Cloud-native resume editor with AI-assisted bullet rewriting and crash-proof session recovery. React and FastAPI frontend-backend split, DynamoDB for hot state, S3 for cold snapshots, deployed on AWS Lambda behind CloudFront.
+**Data & infra:** Spark, Databricks, PostgreSQL, MLflow, Docker, AWS, Azure, AKS  
 
-**English-Hindi Neural Machine Translation** | Comparative study of LSTM, attention and Transformer architectures with custom SVO-to-SOV reordering. Research-grade evaluation with BLEU and TER metrics.
+**Analytics:** Power BI, Tableau, A/B tests, funnels, cohorts · **Dev:** Git, CI/CD  
 
-**Real-Time Bitcoin Price Prediction** | Live price prediction pipeline combining time series modeling with real-time data ingestion.
+---
 
-## What I Am Looking For
+## What I am looking for
 
-I want to work on products where data science and AI sit at the core of how value is delivered. I am drawn to teams that care about measurement, think carefully about what to automate and value clear communication as much as technical depth.
+Teams where **data science and AI are core to the product**—strong measurement, thoughtful automation, and communication as a first-class skill. If that is your team, I would be glad to talk.
 
-If you are building something where ML needs to translate into product outcomes or operational decisions, I would be glad to talk.
+---
 
-**Email:** agupta17@umd.edu
-**LinkedIn:** [linkedin.com/in/arin-rajiv-gupta](https://www.linkedin.com/in/arin-rajiv-gupta/)
+<details>
+<summary><b>My approach</b> (expand)</summary>
+
+I start with the **decision**, not the data: what changes if we are right, and what does it cost if we are wrong. That drives data choices, methods, evaluation, and how results are packaged (dashboards, alerts, routing, reports) so they fit real workflows.
+
+</details>
+
+<details>
+<summary><b>What I have built</b> — full narratives (expand)</summary>
+
+### LLM-assisted triage and case routing (UMD)
+
+Automated triage connecting counseling, testing, and admin through LLM-powered classification, priority, and routing—**~78%** reduction in manual processing and **~35%** reduction in unresolved escalations vs the prior manual routing baseline for the same classes of intake.
+
+### Product analytics and GTM (Smith School, UMD)
+
+ML consulting for an edtech startup: engagement across **50+** U.S. universities, cohort segmentation (K-Means), conversion modeling (logistic regression), A/B tests on paid and organic channels. **~29%** weekly engagement lift and **~22%** campaign ROI improvement vs prior period baselines; automated pipelines moved leadership reporting from **weekly to daily** (**~60%** faster time-to-decision on ad spend).
+
+### Healthcare claims anomaly detection
+
+Isolation Forest + NLP narrative classifier on Azure Databricks over **250K+** claims; **~92%** precision on unstructured clinical-note flagging (precision defined on the audit sample used for tuning/validation). LangChain + RAG + vector DB for auditor-facing summaries on AKS; **~40%** claim review time reduction and **~28%** fewer auditor escalations vs prior workflow metrics.
+
+### Anomaly detection for defense systems (DRDO, India)
+
+SVM-based pipelines for steganography-oriented anomaly analysis; surfaced concrete vulnerability themes (e.g., payload patterns, key reuse, compression side channels). **~95%** accuracy on the internal benchmark-style dataset (**100K+** records). Findings packaged for senior researchers; review cycle **~two weeks → ~four days** for comparable briefing packages.
+
+### Real-time operations analytics (Indian Oil)
+
+**1M+** daily datapoints through SQL pipelines; Power BI with RLS for **500+** analysts / **200+** stations; ARIMA-style forecasting contributing to **~40%** inventory accuracy improvement and **~two weeks** forward visibility for procurement.
+
+### Neural machine translation (English → Hindi)
+
+Compared LSTM, Bahdanau attention, and Transformer on **310K** sentence pairs; Transformer best at **BLEU 16.48**, **TER 74.01**. Dependency-based reordering touched **~43%** of test sentences; error analysis fed the co-authored research report.
+
+</details>
+
