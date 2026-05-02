@@ -8,7 +8,7 @@ Over the past four years I have worked across defense research, energy operation
 
 I am finishing my MS in Data Science at the University of Maryland (4.0 GPA) and actively looking for roles where I can own the full arc from problem framing through deployment and measurement.
 
-## How I Think About the Work
+## My Approach
 
 I start with the decision, not the data. Before I write a query or train a model, I want to know what will change if we get the answer right and what it costs if we get it wrong. That framing shapes everything downstream: what data to collect, which methods actually fit, how to evaluate, and how to present findings so they land with the right people.
 
@@ -50,11 +50,11 @@ I compared LSTM, Bahdanau attention and Transformer architectures on 310K senten
 
 ## Selected Repositories
 
-**[Healthcare Claims Analysis](https://github.com/LifeofArin)** | Isolation Forest + NLP classifier + LangChain RAG pipeline for billing anomaly detection on Azure Databricks. Full MLflow lifecycle, Docker + AKS deployment.
+**Resume Chat with Fast Session Recovery** | Cloud-native resume editor with AI-assisted bullet rewriting and crash-proof session recovery. React and FastAPI frontend-backend split, DynamoDB for hot state, S3 for cold snapshots, deployed on AWS Lambda behind CloudFront.
 
-**[English-Hindi Neural Machine Translation](https://github.com/LifeofArin/english-hindi-nmt-source-reordering)** | Comparative study of LSTM, attention and Transformer architectures with custom SVO-to-SOV reordering. Research-grade evaluation with BLEU and TER metrics.
+**English-Hindi Neural Machine Translation** | Comparative study of LSTM, attention and Transformer architectures with custom SVO-to-SOV reordering. Research-grade evaluation with BLEU and TER metrics.
 
-**[Real-Time Bitcoin Price Prediction](https://github.com/LifeofArin/Real-Time-Bitcoin-Price-Prediction)** | Live price prediction pipeline combining time series modeling with real-time data ingestion.
+**Real-Time Bitcoin Price Prediction** | Live price prediction pipeline combining time series modeling with real-time data ingestion.
 
 ## What I Am Looking For
 
