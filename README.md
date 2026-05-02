@@ -4,7 +4,7 @@
 
 ### Arin Rajiv Gupta
 
-**Data science, business analytics, and applied AI with product judgment**
+**Data science, product analytics, and applied AI**
 
 MS Data Science @ University of Maryland (4.0). Open to roles from **framing the problem** through **models, systems, and measurement**.
 
