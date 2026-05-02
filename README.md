@@ -15,6 +15,7 @@ MS Data Science @ University of Maryland (4.0). Open to roles from **framing the
 ---
 
 Most of my work sits in one lane. I help teams decide what to build or change next, whether that is a funnel, a forecast, a classifier, or an LLM backed workflow. I care about clean data and solid methods, and I care just as much that the output fits how people actually work (dashboards, routing rules, alerts, and plain language summaries). If generative AI is the answer, I want it grounded in evals, guardrails, and how the team will run it tomorrow, not only how it looks in a notebook today.
+
 **Selected impact** (high level. Happy to walk through definitions, baselines, and caveats in conversation.)
 
 | Area | Outcome |
