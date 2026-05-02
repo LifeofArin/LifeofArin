@@ -39,17 +39,7 @@ Most of my work sits in one lane. I help teams decide what to build or change ne
 | [**english-hindi-nmt-source-reordering**](https://github.com/LifeofArin/english-hindi-nmt-source-reordering) | LSTM, attention, and Transformer comparison plus English to Hindi reordering before decode |
 | [**Resume chat (fast session recovery)**](https://github.com/abhyansh26/resume-chat-fast-recovery) | Resume editor with AI assisted bullets and durable session state (React, FastAPI, DynamoDB, S3, AWS Lambda behind CloudFront) |
 
----
 
-## How I work (short)
-
-**Analytics and product thinking.** I translate leadership questions into metrics and cohorts, funnel views, and experiment plans, then into something engineers and operators can act on.
-
-**Modeling and AI systems.** Classical ML, NLP, time series, and GenAI when the problem calls for it (routing, summarization, RAG style flows). I stay close to evaluation and failure modes before anything touches users.
-
-**Delivery.** SQL and Python pipelines, cloud notebooks and services, dashboards where stakeholders already live, and enough software hygiene that another person can run or extend the work.
-
----
 
 ## Technical stack
 
