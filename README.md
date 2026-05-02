@@ -31,7 +31,7 @@ Most of my work sits in one lane. I help teams decide what to build or change ne
 
 ---
 
-## Pinned repositories (start here)
+## Pinned repositories 
 
 | Repo | What it is |
 |------|------------|
