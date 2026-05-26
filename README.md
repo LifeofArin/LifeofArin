@@ -35,7 +35,7 @@ Most of my work sits in one lane. I help teams decide what to build or change ne
 
 | Repo | What it is |
 |------|------------|
-| [**wealthsense-ai**](https://github.com/LifeofArin/wealthsense-ai) | Stock forecasting and goal planning (LSTM, GRU, Transformer) with walk-forward validation and a Streamlit app. **[Live demo](https://wealthsenseai.streamlit.app)** |
+| [**wealthsenseai**](https://github.com/LifeofArin/wealthsenseai) | Stock forecasting and goal planning (LSTM, GRU, Transformer) with walk-forward validation and a Streamlit app. **[Live demo](https://wealthsenseai.streamlit.app)** |
 | [**Real-Time-Bitcoin-Price-Prediction**](https://github.com/LifeofArin/Real-Time-Bitcoin-Price-Prediction) | Time series work with a live style data path |
 | [**english-hindi-nmt-source-reordering**](https://github.com/LifeofArin/english-hindi-nmt-source-reordering) | LSTM, attention, and Transformer comparison plus English to Hindi reordering before decode |
 | [**Resume chat (fast session recovery)**](https://github.com/abhyansh26/resume-chat-fast-recovery) | Resume editor with AI assisted bullets and durable session state (React, FastAPI, DynamoDB, S3, AWS Lambda behind CloudFront) |
@@ -76,7 +76,7 @@ I start from the decision, not the spreadsheet. I want to know what changes if w
 
 ### WealthSense AI: forecasting and financial planning
 
-I built a full pipeline for five tickers (AAPL, MSFT, NVDA, TSLA, SPY) with macro features and log-return targets. It compares LSTM, GRU, and Transformer models, adds Monte Carlo dropout for uncertainty, combines models with rolling weights, and benchmarks against ARIMA and naive baselines. I also ran Diebold-Mariano tests, feature ablation, and Monte Carlo goal planning in a Streamlit dashboard. The chat layer uses Gemini when a key is available, with a free rule-based fallback otherwise. **[Live app](https://wealthsenseai.streamlit.app)** · [Code](https://github.com/LifeofArin/wealthsense-ai)
+I built a full pipeline for five tickers (AAPL, MSFT, NVDA, TSLA, SPY) with macro features and log-return targets. It compares LSTM, GRU, and Transformer models, adds Monte Carlo dropout for uncertainty, combines models with rolling weights, and benchmarks against ARIMA and naive baselines. I also ran Diebold-Mariano tests, feature ablation, and Monte Carlo goal planning in a Streamlit dashboard. The chat layer uses Gemini when a key is available, with a free rule-based fallback otherwise. **[Live app](https://wealthsenseai.streamlit.app)** · [Code](https://github.com/LifeofArin/wealthsenseai)
 
 ### LLM assisted triage and case routing (UMD)
 
