@@ -35,6 +35,7 @@ Most of my work sits in one lane. I help teams decide what to build or change ne
 
 | Repo | What it is |
 |------|------------|
+| [**wealthsense-ai**](https://github.com/LifeofArin/wealthsense-ai) | PyTorch LSTM/GRU/Transformer stock forecasting, walk-forward validation, Monte Carlo goal planning, Gemini chat — **[live demo](https://wealthsenseai.streamlit.app)** |
 | [**Real-Time-Bitcoin-Price-Prediction**](https://github.com/LifeofArin/Real-Time-Bitcoin-Price-Prediction) | Time series work with a live style data path |
 | [**english-hindi-nmt-source-reordering**](https://github.com/LifeofArin/english-hindi-nmt-source-reordering) | LSTM, attention, and Transformer comparison plus English to Hindi reordering before decode |
 | [**Resume chat (fast session recovery)**](https://github.com/abhyansh26/resume-chat-fast-recovery) | Resume editor with AI assisted bullets and durable session state (React, FastAPI, DynamoDB, S3, AWS Lambda behind CloudFront) |
@@ -72,6 +73,10 @@ I start from the decision, not the spreadsheet. I want to know what changes if w
 
 <details>
 <summary><b>Selected work in more detail</b> (expand)</summary>
+
+### WealthSense AI — forecasting and goal-based planning
+
+Multi-ticker pipeline (AAPL, MSFT, NVDA, TSLA, SPY) with macro features, log-return targets, LSTM/GRU/Transformer models, MC Dropout uncertainty, rolling ensembles vs ARIMA/naive baselines, Diebold–Mariano tests, feature ablation, and Monte Carlo goal planning in a Streamlit dashboard. Optional Gemini assistant with a free rule-based fallback when no API key is set. **[Live app](https://wealthsenseai.streamlit.app)** · [repository](https://github.com/LifeofArin/wealthsense-ai)
 
 ### LLM assisted triage and case routing (UMD)
 
