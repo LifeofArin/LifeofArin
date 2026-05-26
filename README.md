@@ -16,7 +16,7 @@ MS Data Science @ University of Maryland (4.0). Open to roles from **framing the
 
 Most of my work sits in one lane. I help teams decide what to build or change next, whether that is a funnel, a forecast, a classifier, or an LLM backed workflow. I care about clean data and solid methods, and I care just as much that the output fits how people actually work (dashboards, routing rules, alerts, and plain language summaries). If generative AI is the answer, I want it grounded in evals, guardrails, and how the team will run it tomorrow, not only how it looks in a notebook today.
 
-**Selected impact** (high level. Happy to walk through definitions, baselines, and caveats in conversation.)
+**Selected impact** (summary level; happy to walk through baselines and definitions in conversation.)
 
 | Area | Outcome |
 |------|--------|
@@ -35,7 +35,7 @@ Most of my work sits in one lane. I help teams decide what to build or change ne
 
 | Repo | What it is |
 |------|------------|
-| [**wealthsense-ai**](https://github.com/LifeofArin/wealthsense-ai) | PyTorch LSTM/GRU/Transformer stock forecasting, walk-forward validation, Monte Carlo goal planning, Gemini chat — **[live demo](https://wealthsenseai.streamlit.app)** |
+| [**wealthsense-ai**](https://github.com/LifeofArin/wealthsense-ai) | Stock forecasting and goal planning (LSTM, GRU, Transformer) with walk-forward validation and a Streamlit app. **[Live demo](https://wealthsenseai.streamlit.app)** |
 | [**Real-Time-Bitcoin-Price-Prediction**](https://github.com/LifeofArin/Real-Time-Bitcoin-Price-Prediction) | Time series work with a live style data path |
 | [**english-hindi-nmt-source-reordering**](https://github.com/LifeofArin/english-hindi-nmt-source-reordering) | LSTM, attention, and Transformer comparison plus English to Hindi reordering before decode |
 | [**Resume chat (fast session recovery)**](https://github.com/abhyansh26/resume-chat-fast-recovery) | Resume editor with AI assisted bullets and durable session state (React, FastAPI, DynamoDB, S3, AWS Lambda behind CloudFront) |
@@ -74,9 +74,9 @@ I start from the decision, not the spreadsheet. I want to know what changes if w
 <details>
 <summary><b>Selected work in more detail</b> (expand)</summary>
 
-### WealthSense AI — forecasting and goal-based planning
+### WealthSense AI: forecasting and financial planning
 
-Multi-ticker pipeline (AAPL, MSFT, NVDA, TSLA, SPY) with macro features, log-return targets, LSTM/GRU/Transformer models, MC Dropout uncertainty, rolling ensembles vs ARIMA/naive baselines, Diebold–Mariano tests, feature ablation, and Monte Carlo goal planning in a Streamlit dashboard. Optional Gemini assistant with a free rule-based fallback when no API key is set. **[Live app](https://wealthsenseai.streamlit.app)** · [repository](https://github.com/LifeofArin/wealthsense-ai)
+I built a full pipeline for five tickers (AAPL, MSFT, NVDA, TSLA, SPY) with macro features and log-return targets. It compares LSTM, GRU, and Transformer models, adds Monte Carlo dropout for uncertainty, combines models with rolling weights, and benchmarks against ARIMA and naive baselines. I also ran Diebold-Mariano tests, feature ablation, and Monte Carlo goal planning in a Streamlit dashboard. The chat layer uses Gemini when a key is available, with a free rule-based fallback otherwise. **[Live app](https://wealthsenseai.streamlit.app)** · [Code](https://github.com/LifeofArin/wealthsense-ai)
 
 ### LLM assisted triage and case routing (UMD)
 
