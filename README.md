@@ -35,6 +35,7 @@ Most of my work sits in one lane. I help teams decide what to build or change ne
 
 | Repo | What it is |
 |------|------------|
+| [**risk-radar**](https://github.com/LifeofArin/risk-radar) | Puts bond market stress and the risk language in SEC filings on one screen and measures which one moves first (FRED, EDGAR full-text search, walk-forward model, DuckDB, Streamlit). **[Live demo](https://riskradar-arin.streamlit.app)** |
 | [**wealthsenseai**](https://github.com/LifeofArin/wealthsenseai) | Stock forecasting and goal planning (LSTM, GRU, Transformer) with walk-forward validation and a Streamlit app. **[Live demo](https://wealthsenseai.streamlit.app)** |
 | [**Real-Time-Bitcoin-Price-Prediction**](https://github.com/LifeofArin/Real-Time-Bitcoin-Price-Prediction) | Time series work with a live style data path |
 | [**english-hindi-nmt-source-reordering**](https://github.com/LifeofArin/english-hindi-nmt-source-reordering) | LSTM, attention, and Transformer comparison plus English to Hindi reordering before decode |
@@ -73,6 +74,10 @@ I start from the decision, not the spreadsheet. I want to know what changes if w
 
 <details>
 <summary><b>Selected work in more detail</b> (expand)</summary>
+
+### Risk Radar: market stress vs the language in SEC filings
+
+When the economy starts to turn, the bond market reprices risk in real time and corporate management starts hedging its language in filings. Those two signals do not always move together, so Risk Radar puts both on one screen and measures which one speaks first. The macro side compresses five FRED series (yield curve, high-yield spread, jobless claims, CPI, and the NBER recession flag) into a 0 to 100 stress score using expanding-window z-scores with publication lags applied to each series, so no future data leaks into a past quarter. The disclosure side counts six risk themes across every 10-K and 10-Q filed since 2005 through SEC EDGAR full-text search, normalized as a share of filing volume each quarter so the raw growth in filings does not show up as a trend. A walk-forward logistic regression then asks the honest question: does the filing language add anything over the macro data alone? On this sample it does not (macro-only AUC near 0.70, and it drops slightly when disclosure shares go in), and I report that plainly instead of dressing it up. The one lead/lag result that survives first-differencing is CPI leading inflation-related filing language by about a quarter. The quarterly join and theme pivot run in DuckDB SQL straight off cached parquet, and the whole thing ships as a Streamlit dashboard with a small scoring API. It is a measurement tool, not a trading strategy. **[Live demo](https://riskradar-arin.streamlit.app)** · [Code](https://github.com/LifeofArin/risk-radar)
 
 ### WealthSense AI: forecasting and financial planning
 
